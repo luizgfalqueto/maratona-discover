@@ -1,3 +1,89 @@
+/* ================================== GLOBAL ===============================*/
+:root {
+    --dark-blue: #363f5f;
+}
+
 * {
-    
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f0f2f5;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: min(90vw, 800px);
+    margin: auto;
+}
+
+/* ================================== TITLES ===============================*/
+
+h2 {
+    margin-top: 3.2rem;
+    margin-bottom: .8rem;
+    color: var(--dark-blue);
+
+    font-weight: normal;
+}
+
+/* ================================== HEADER ===============================*/
+
+header {
+    background: #2D4A22;
+    padding: 2rem 0 10rem;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    font-weight: 100;
+}
+
+/* ================================== BALANCE ===============================*/
+
+#balance {
+    margin-top: -8rem;
+}
+
+#balance h2 {
+    color: white;
+    margin-top: 0;
+}
+
+/* ================================== CARDS ===============================*/
+
+.card {
+    background: white;
+    padding: 1.5rem 2rem;
+    border-radius: .25rem;
+
+    margin-bottom: 2rem;
+
+    color: var(--dark-blue);
+}
+
+.card h3 {
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+.card p {
+    font-size: 2rem;
+    line-height: 3rem;
+
+    margin-top: 1rem;
+}
+
+.card.total {
+    background: #49AA26;
+    color: white;
+}
+
+/* ================================== FOOOTER ===============================*/
+
+footer {
+   text-align: center; 
 }
