@@ -10,7 +10,7 @@
 }
 
 body {
-    background: #f0f2f5;
+    background: #dcdee0;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -82,8 +82,61 @@ header h1 {
     color: white;
 }
 
+/* ================================== TABLE ================================ */
+
+#data-table {
+    width: 100%;
+    border-spacing: 0 .5rem;
+
+    color: #969cb3;
+}
+
+table thead tr th:first-child,
+table tbody tr td:first-child {
+    border-radius: .25rem 0 0 .25rem;
+}
+
+table thead th {
+    background: white;
+
+    font-weight: normal;
+
+    padding: 1rem 2rem;
+    text-align: left;
+}
+
+table tbody tr {
+    opacity: .7;
+}
+
+table tbody tr:hover {
+    opacity: 1;
+}
+
+table tbody td {
+    background-color: white;
+
+    padding: 1rem 2rem;
+}
+
+td.description {
+    color: var(--dark-blue);
+}
+
+td.incom {
+    color: #12a454;
+}
+
+td.expense {
+    color: #e92929;
+}
+
 /* ================================== FOOOTER ===============================*/
 
 footer {
-   text-align: center; 
+   text-align: center;
+   padding: 4rem 0 2rem; 
+   color: var(--dark-blue);
+   
+   opacity: .6;
 }
