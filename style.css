@@ -116,7 +116,7 @@ header h1 {
 /* ================================== BALANCE ===============================*/
 
 #balance {
-    margin-top: -5rem;
+    margin-top: -6rem;
 }
 
 #balance h2 {
@@ -209,7 +209,7 @@ td.description {
     color: var(--dark-blue);
 }
 
-td.incom {
+td.income {
     color: #12a454;
 }
 
