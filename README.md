@@ -40,5 +40,8 @@ This project is under license from MIT. For more details, see the [LICENSE](LICE
 #### Desktop View ####
 <img alt="Desktop Image" src="./assets/image_big.png">
 
+#### Form View ####
+<img alt="Desktop Image" src="./assets/image_form.png">
+
 #### Mobile View ####
 <img alt="Desktop Image" src="./assets/image_small.png">
